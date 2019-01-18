@@ -12,7 +12,7 @@ import org.jgroups.util.Util;
 import java.util.List;
 
 /**
- * RpcAyncInvoker
+ * RpcAsyncInvoker
  *
  * @author Liu Chunfu
  * @date 2019-01-17 19:39

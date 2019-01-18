@@ -1,0 +1,1 @@
+如果 PC启用了 IpV6 请在 VM参数中添加：`-Djava.net.preferIPv4Stack=true`

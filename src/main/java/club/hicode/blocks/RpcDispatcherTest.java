@@ -31,7 +31,7 @@ public class RpcDispatcherTest {
 
     protected RpcDispatcher da, db, dc;
     protected JChannel a, b, c;
-    protected static final String GROUP = "RpcAyncInvoker";
+    protected static final String GROUP = "RpcAsyncInvoker";
 
     // specify return values sizes which should work correctly with a 64Mb heap
     final static int[] SIZES = {10000, 20000, 40000, 80000, 100000, 200000, 400000, 800000,
@@ -87,8 +87,8 @@ public class RpcDispatcherTest {
             d1.start();
             d2.start();
 
-            d.connect("RpcAyncInvoker-DifferentGroup");
-            e.connect("RpcAyncInvoker-DifferentGroup");
+            d.connect("RpcAsyncInvoker-DifferentGroup");
+            e.connect("RpcAsyncInvoker-DifferentGroup");
 
             Util.sleep(500);
 

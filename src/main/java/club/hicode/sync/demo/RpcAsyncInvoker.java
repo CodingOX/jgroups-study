@@ -1,4 +1,4 @@
-package club.hicode.sync;
+package club.hicode.sync.demo;
 
 import org.jgroups.JChannel;
 import org.jgroups.blocks.MethodCall;
@@ -12,12 +12,12 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 /**
- * RpcAyncInvoker
+ * RpcAsyncInvoker
  *
  * @author Liu Chunfu
  * @date 2019-01-17 19:39
  **/
-public class RpcAyncInvoker {
+public class RpcAsyncInvoker {
     JChannel channel;
     RpcDispatcher disp;
     RspList rsp_list;
@@ -53,6 +53,6 @@ public class RpcAyncInvoker {
     }
 
     public static void main(String[] args) throws Exception {
-        new RpcAyncInvoker().start();
+        new RpcAsyncInvoker().start();
     }
 }

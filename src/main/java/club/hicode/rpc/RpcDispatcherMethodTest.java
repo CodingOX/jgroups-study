@@ -9,7 +9,7 @@ import org.jgroups.util.RspList;
 import org.jgroups.util.Util;
 
 /**
- * RpcAyncInvoker
+ * RpcAsyncInvoker
  *
  * @author Liu Chunfu
  * @date 2019-01-17 19:39
